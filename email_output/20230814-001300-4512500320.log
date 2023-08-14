@@ -1,0 +1,14 @@
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Subject: Verify your email
+From: webmaster@localhost
+To: user@example.com
+Date: Mon, 14 Aug 2023 00:13:00 -0000
+Message-ID: 
+ <169197198082.92341.14109080977362613160@1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa>
+
+Hi string Use the link below to verify your email 
+https://127.0.0.1:8000/auth/email-verify/?token=
+
+-------------------------------------------------------------------------------
