@@ -29,6 +29,10 @@ urlpatterns += [
     path('auth/', include('core.urls')),
 ]
 
+urlpatterns += [
+    path('expenses/', include('expenses.urls'))
+]
+
 schema_view = get_schema_view(
     openapi.Info(
         title="Rest Auth API",
