@@ -1,0 +1,14 @@
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Subject: Reset your password
+From: webmaster@localhost
+To: user@example.com
+Date: Mon, 14 Aug 2023 22:52:16 -0000
+Message-ID: 
+ <169205353604.33919.5167006628911619177@1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa>
+
+Hello,
+Use the link below to reset your password:
+http://127.0.0.1:8000/auth/password-reset/Nw/bsy274-7423986b4dd3ccd2c238069c88ca1ccc/?redirect_url=string
+-------------------------------------------------------------------------------

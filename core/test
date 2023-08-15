@@ -1,0 +1,9 @@
+from rest_framework.decorators import api_view, renderer_classes
+from rest_framework.response import Response
+from .renderers import UserRenderer
+
+@api_view(['GET'])
+@renderer_classes([UserRenderer, JSONRenderer])
+def my_functional_view(request):
+    data = {'message': 'Hello, world!'}
+    return Response(data, status=200)
