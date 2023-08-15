@@ -17,7 +17,7 @@ from rest_framework.renderers import JSONRenderer
 from core.serializers import RegisterSerializer, EmailVerificationSerializer, LoginSerializer, \
     ResetPasswordEmailRequestSerializer, SetNewPasswordSerializer, LogoutSerializer
 from rest_framework_simplejwt.tokens import RefreshToken
-from utils import Util
+from .utils import Util
 
 
 # Create your views here.
