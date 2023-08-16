@@ -39,6 +39,10 @@ urlpatterns += [
     path('income/', include('income.urls'))
 ]
 
+urlpatterns += [
+    path('social_auth/', include(('socialauth.urls', 'social_auth'), namespace="social_auth")),
+]
+
 schema_view = get_schema_view(
     openapi.Info(
         title="Rest Auth API",
@@ -56,7 +60,6 @@ urlpatterns += [
     path('swagger/', schema_view.with_ui('swagger', cache_timeout=0), name='schema-swagger-ui'),
     path('redoc/', schema_view.with_ui('redoc', cache_timeout=0), name='schema-redoc'),
 ]
-
 
 handler404 = 'utils.views.error_404'
 handler500 = 'utils.views.error_500'
